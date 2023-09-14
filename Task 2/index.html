@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="icon" type="image/x-icon" href="TASK2Logo.png">
+
+    <link rel="stylesheet" href="TASK2Css.css">
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" 
+    href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+</head>
+<body>
+    <div class="search-bar">
+        <i class="uil uil-search"></i>
+        <input type="text" id="search-bar" placeholder="Search tasks...">
+    </div>    
+    <div class="logo">
+        <h1>To Do List</h1>
+    </div>
+    <div class="container">
+        <div class="input-field">
+            <textarea placeholder="Enter your new tasks "></textarea>
+            <i class="uil uil-notes note-icon"></i>
+        </div>
+
+        <ul class="todolist">
+            <!-- <li class="list">
+                <input type="checkbox" />
+                <span class="task">Renew Gym membership</span>
+                <i class="uil uil-trash note-bin"></i>
+            </li> -->
+        </ul>
+
+        <div class="pending-tasks">
+            <span>You have <span class="pending-num">no </span> tasks pending. </span>
+            <button class="clear-button">Clear All</button>
+        </div>
+    </div>
+
+ <!-- Javascript -->
+<script src="TASK2App.js"></script>
+</body>
+</html>
